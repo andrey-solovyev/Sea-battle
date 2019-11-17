@@ -50,7 +50,7 @@ public class Ship implements Common {
         for (int i = 0; i < ships_cells.length; i++) {
             if (ships_cells[i].getX() == x && ships_cells[i].getY() == y) {
                 ships_cells[i].setShot(true);
-                healthy=-1;
+                healthy--;
                 return true;
             }
         }

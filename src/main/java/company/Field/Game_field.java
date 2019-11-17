@@ -10,7 +10,7 @@ public class Game_field {
             for (int k = 0; k < game_field.length; k++) {
                 game_field[i][k] = new Cell(i, k);
                 game_field[i][k].setShot(false);
-                game_field[i][k].setCell_color(Color.BLUE);
+               game_field[i][k].setCell_color(Color.BLUE);
             }
         }
     }

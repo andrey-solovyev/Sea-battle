@@ -1,6 +1,7 @@
 package company.Player;
 
 import company.Arms.Arms;
+import company.Arms.Common;
 import company.Arms.Mine;
 import company.Arms.Minesweeper;
 import company.Arms.Ship;
@@ -23,15 +24,19 @@ public class Robot implements Player {
     private int draw = 0;
 
     private void draw() {
+        System.out.println("  1  2  3  4  5  6  7  8  9  10");
+        int g=1;
         for (int i = 0; i < game_field.getGame_field().length; i++) {
+            System.out.print(g);
             for (int k = 0; k < game_field.getGame_field().length; k++) {
                 if (game_field.getGame_field()[i][k].isShot()) {
-                    System.out.print("#");
+                    System.out.print(" # ");
                 } else {
-                    System.out.print("*");
+                    System.out.print(" * ");
                 }
 
             }
+            g++;
             System.out.println();
         }
     }
@@ -174,7 +179,18 @@ public class Robot implements Player {
             game_field.getGame_field()[x][y].setShot(true);
         }
     }*/
-private  void outline(Ship ship) {
+
+    @Override
+    public Game_field getGameField() {
+        return game_field;
+    }
+
+    @Override
+    public Common[] getAllArms() {
+        return arms.getArms();
+    }
+
+    private  void outline(Ship ship) {
 
     for (int i = 0; i < ship.getShips_cells().length; i++) {
         int x = ship.getCell(i).getX();

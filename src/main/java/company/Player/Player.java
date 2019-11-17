@@ -1,7 +1,9 @@
 package company.Player;
 
+import company.Arms.Common;
 import company.Arms.Ship;
 import company.Field.Cell;
+import company.Field.Game_field;
 
 public interface Player {
     boolean hit(Cell cell);
@@ -17,5 +19,7 @@ public interface Player {
     void addMineCell(Cell cell);
     Cell giveMineCell();
     boolean allShipIsDead();
+    Game_field getGameField();
+    Common[] getAllArms();
 
 }

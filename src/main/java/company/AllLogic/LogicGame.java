@@ -1,24 +1,33 @@
 package company.AllLogic;
 
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import company.Field.Cell;
+import company.Field.Game_field;
 import company.Player.Player;
 import company.Player.Robot;
 import company.Player.User;
+import javafx.stage.FileChooser;
+import javafx.stage.Stage;
 
 
-
+import java.io.File;
+import java.io.IOException;
+import java.io.StringWriter;
 import java.util.Random;
+import java.util.Scanner;
 
 public class LogicGame {
     private Game games;
     private boolean haveUser = false;
     private boolean playerOneGo = false;
     private boolean playerTwoGo = false;
-    private boolean playerOneLastShot=false;
-    private boolean playerTwoLastShot=false;
+    private boolean playerOneLastShot = false;
+    private boolean playerTwoLastShot = false;
     private Player playerOne;
     private Player playerTwo;
+    private Scanner scanner = new Scanner(System.in);
+    private SaveGameJson saveGameJson = new SaveGameJson();
 
     //выбор игроков
     //if (robot vs robot then...) another robot vs user
@@ -34,6 +43,7 @@ public class LogicGame {
             playerOne = game.getUser();
             playerTwo = game.getRobot();
             games = game;
+            saveGameJson.setHaveUser(true);
             firstHit();
         } else {
             Game game = new Game(new Robot(), new Robot());
@@ -54,6 +64,12 @@ public class LogicGame {
             WhoIsmove();
         }
     }
+  /*  public void download(){
+        FileChooser fileChooser=new FileChooser();
+        fileChooser.setTitle("Choose file");
+        File file = fileChooser.showOpenDialog(new Stage());
+
+    }*/
 
     /* private void WhoIsmove() {
          if (playerOneGo) {
@@ -85,16 +101,48 @@ public class LogicGame {
              }
          }
      }*/
+
+    private void saveJson() {
+        StringWriter stringWriter = new StringWriter();
+        ObjectMapper objectMapper = new ObjectMapper();
+        saveGameJson.setPlayerOne(playerOne.getGameField().getGame_field());
+        saveGameJson.setPlayerTwo(playerTwo.getGameField().getGame_field());
+        saveGameJson.setPlayerOneArms(playerOne.getAllArms());
+        saveGameJson.setPlayerTwoArms(playerTwo.getAllArms());
+        if (playerOneGo){
+            saveGameJson.setLastShotOne(true);
+        }
+        try {
+            objectMapper.writeValue(stringWriter, saveGameJson);
+        } catch (IOException e) {
+            System.out.println("IOEXCEPTION");
+        }
+
+        System.out.println(stringWriter.toString());
+    }
+
     private void WhoIsmove() {
+        int q = 0;
         while (!playerOne.allShipIsDead() && !playerTwo.allShipIsDead()) {
+          /*  System.out.println("Сохранить текущее состояние игры?");
+            System.out.println("Введите 1, если да, иначе 2");
+            int key = scanner.nextInt();
+            if (key == 1) {
+
+            }*/
+            if (q == 15) {
+                saveJson();
+            }
+            q++;
+
             if (playerOneGo) {
                 Cell cell = playerOne.whereShot(playerOneLastShot);
                 System.out.println("One " + cell.getX() + " " + cell.getY());
                 checkShot(playerOne, playerTwo, cell);
-            }else if (playerTwoGo) {
+            } else if (playerTwoGo) {
                 Cell cell = playerTwo.whereShot(playerTwoLastShot);
-                System.out.println("Two"+cell.getX()+" " +cell.getY());
-                checkShot( playerTwo,playerOne, cell);
+                System.out.println("Two" + cell.getX() + " " + cell.getY());
+                checkShot(playerTwo, playerOne, cell);
             }
         }
         finish();
@@ -107,12 +155,12 @@ public class LogicGame {
                 notShip(One, Two, cell);
             }
             One.giveDeadShip(Two.isDeadShip(cell));
-            if (playerOneGo){
-                playerOneLastShot=true;
-                playerTwoLastShot=false;
-            } else if(playerTwoGo){
-                playerTwoLastShot=true;
-                playerOneLastShot=false;
+            if (playerOneGo) {
+                playerOneLastShot = true;
+                playerTwoLastShot = false;
+            } else if (playerTwoGo) {
+                playerTwoLastShot = true;
+                playerOneLastShot = false;
             }
         } else {
             redefinition();
@@ -135,7 +183,7 @@ public class LogicGame {
             redefinition();
         } else if (two.isSubmarine(cell)) {
             redefinition();
-         //   checkShot(two, one, cell);
+            //     checkShot(two, one, cell);
         } else if (two.isMineswepeer(cell)) {
             redefinition();
             two.addMineCell(one.giveMineCell());

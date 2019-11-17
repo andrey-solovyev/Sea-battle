@@ -2,7 +2,9 @@ package company.Arms;
 
 import company.Field.Cell;
 import company.Field.Cell;
+import company.Field.Game_field;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 public class Arms {
@@ -21,6 +23,8 @@ public class Arms {
     private Ship[] ships;
     private Minesweeper minesweeper;
     private int howMuchShip=10;
+    private Random random = new Random();
+
 
 
     public Arms(Ship ship_4, Ship ship_3_1, Ship ship_3_2, Ship ship_2_1, Ship ship_2_2, Ship ship_2_3, Ship ship_1_1, Ship ship_1_2, Ship ship_1_3, Ship ship_1_4, Mine mine, Submarine submarine, Minesweeper minesweeper) {
@@ -77,20 +81,28 @@ public class Arms {
         return objects;
     }
 
+
     public boolean hit(int x, int y) {
         return isHit(x, y);
     }
 
     private boolean isHit(int x, int y) {
         for (int i = 0; i < getArms().length; i++) {
-            if (getArms()[i].check(x, y)&& !getArms()[i].isDead()) {
-
+            if (getArms()[i].check(x, y)) {
                 return true;
             }
         }
         return false;
     }
 
+    /*public Game_field getGameFieldPlayer(){
+        return g
+    }*/
+    public void arrangeAllArms(Arms arms){
+        int sizeShip=4;
+        int quantity=1;
+        int k=
+    }
     public boolean isMineOrSubmarine(int x, int y) {
         if (getArms()[11].check(x, y) || getArms()[10].check(x, y)) {
             return true;
@@ -117,7 +129,6 @@ public class Arms {
         for (int i = 0; i < ships.length; i++) {
             if (ships[i].check(cell.getX(),cell.getY()) && ships[i].isDead()) {
                 howMuchShip--;
-                System.out.println("DEAD SHIP");
                 return ships[i];
             }
         }
@@ -134,7 +145,6 @@ public class Arms {
 
     public Cell randomPoint() {
         int q = 0;
-        Random random = new Random();
         int i = random.nextInt(10);
         if (!ships[i].isDead()) {
             q = random.nextInt(ships[i].getSize());

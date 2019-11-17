@@ -1,6 +1,7 @@
 package company.Player;
 
 import company.Arms.Arms;
+import company.Arms.Common;
 import company.Arms.Ship;
 import company.Field.Cell;
 import company.Field.Game_field;
@@ -10,15 +11,29 @@ import java.util.Scanner;
 
 public class User implements Player {
     private Arms arms;
-    private Game_field game_field;
+    private Game_field game_field=new Game_field();
     private Scanner scanner = new Scanner(System.in);
 
     public User() {
+
     }
 
+    private void arrangeShips(){
+        arms.
+    }
     @Override
     public boolean hit(Cell cell) {
         return arms.hit(cell.getX(), cell.getY());
+    }
+
+    @Override
+    public Game_field getGameField() {
+        return game_field;
+    }
+
+    @Override
+    public Common[] getAllArms() {
+        return getAllArms();
     }
 
     public void colorShotShip(Cell cell) {
@@ -103,7 +118,7 @@ public class User implements Player {
     }
     @Override
     public Cell whereShot(boolean lastShot) {
-        System.out.println("where");
+        System.out.println("Where shot?");
         int x = scanner.nextInt();
         int y = scanner.nextInt();
         return new Cell(x, y);
