@@ -1,19 +1,22 @@
 package company.AllLogic;
 
 
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonArray;
 import company.Field.Cell;
 import company.Field.Game_field;
 import company.Player.Player;
 import company.Player.Robot;
 import company.Player.User;
-import javafx.stage.FileChooser;
-import javafx.stage.Stage;
 
-
-import java.io.File;
-import java.io.IOException;
-import java.io.StringWriter;
+import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.Iterator;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -37,6 +40,9 @@ public class LogicGame {
     }
 
     public void who() {
+        if (scanner.nextLine().contains("YES")) {
+            haveUser = true;
+        }
         if (haveUser) {
 
             Game game = new Game(new User(), new Robot());
@@ -64,77 +70,74 @@ public class LogicGame {
             WhoIsmove();
         }
     }
-  /*  public void download(){
-        FileChooser fileChooser=new FileChooser();
-        fileChooser.setTitle("Choose file");
-        File file = fileChooser.showOpenDialog(new Stage());
 
-    }*/
+    public void download(String path) {
+        readJsonFromFile(path);
+        WhoIsmove();
+    }
 
-    /* private void WhoIsmove() {
-         if (playerOneGo) {
-             Cell cell = playerOne.whereShot();
-             System.out.println("One"+cell.getX()+" " +cell.getY());
-           if (checkShot(playerOne, playerTwo, cell) && !playerTwo.allShipIsDead()){
-               WhoIsmove();
-           } else {
-               if (playerTwo.allShipIsDead()){
-                   finish();
-               } else {
-                   redefinition();
-                   WhoIsmove();
-                   }
-           }
-         } else if (playerTwoGo) {
-             Cell cell = playerTwo.whereShot();
-             System.out.println("Two"+cell.getX()+" " +cell.getY());
-
-             if ( checkShot(playerTwo, playerOne, cell) && !playerTwo.allShipIsDead()){
-                 WhoIsmove();
-             } else {
-                 if (playerOne.allShipIsDead()){
-                     finish();
-                 } else {
-                     redefinition();
-                     WhoIsmove();
-                 }
-             }
-         }
-     }*/
 
     private void saveJson() {
-        StringWriter stringWriter = new StringWriter();
-        ObjectMapper objectMapper = new ObjectMapper();
+
         saveGameJson.setPlayerOne(playerOne.getGameField().getGame_field());
+        testDrawMatrix(saveGameJson.getPlayerOne());
         saveGameJson.setPlayerTwo(playerTwo.getGameField().getGame_field());
-        saveGameJson.setPlayerOneArms(playerOne.getAllArms());
-        saveGameJson.setPlayerTwoArms(playerTwo.getAllArms());
-        if (playerOneGo){
+        saveGameJson.setPlayerOneArms(playerOne.getArms());
+        saveGameJson.setPlayerTwoArms(playerTwo.getArms());
+        if (playerOneGo) {
             saveGameJson.setLastShotOne(true);
         }
-        try {
-            objectMapper.writeValue(stringWriter, saveGameJson);
+        Gson gsons = new GsonBuilder().setPrettyPrinting().create();
+        String json = gsons.toJson(saveGameJson);
+        System.out.println("Укажите путь сохранения");
+        String path = scanner.nextLine();
+        try (FileWriter fileWriter = new FileWriter(path)) {
+            gsons.toJson(saveGameJson, fileWriter);
+        } catch (IOException e) {
+            System.out.println("HEY");
+        }
+    }
+
+    public void readJsonFromFile(String path) {
+        who();
+        try (Reader reader = new FileReader(path)) {
+            Gson gson = new Gson();
+            SaveGameJson saveGameJson = gson.fromJson(reader, SaveGameJson.class);
+            testDrawMatrix(saveGameJson.getPlayerOne());
+            playerOneGo = !saveGameJson.isLastShotOne();
+            playerTwoGo = !playerOneGo;
+
+            reader.close();
         } catch (IOException e) {
             System.out.println("IOEXCEPTION");
         }
+    }
 
-        System.out.println(stringWriter.toString());
+    private void testDrawMatrix(Cell[][] cells) {
+        for (int i = 0; i < cells.length; i++) {
+            for (int j = 0; j < cells.length; j++) {
+                if (cells[i][j].isShot()) {
+                    System.out.print("#");
+                } else {
+                    System.out.print("*");
+                }
+            }
+            System.out.println();
+        }
     }
 
     private void WhoIsmove() {
         int q = 0;
         while (!playerOne.allShipIsDead() && !playerTwo.allShipIsDead()) {
-          /*  System.out.println("Сохранить текущее состояние игры?");
-            System.out.println("Введите 1, если да, иначе 2");
-            int key = scanner.nextInt();
-            if (key == 1) {
-
-            }*/
-            if (q == 15) {
+//            System.out.println("Сохранить текущее состояние(YES) или нет(NO)?");
+//            String game = scanner.nextLine();
+//            if (game.contains("YES")) {
+//                saveJson();
+//            }
+            q++;
+            if (q == 30) {
                 saveJson();
             }
-            q++;
-
             if (playerOneGo) {
                 Cell cell = playerOne.whereShot(playerOneLastShot);
                 System.out.println("One " + cell.getX() + " " + cell.getY());
@@ -145,7 +148,10 @@ public class LogicGame {
                 checkShot(playerTwo, playerOne, cell);
             }
         }
+        //standart path to json is
+        //  readJsonFromFile("D:\\Sea battle\\json\\Output.json");
         finish();
+
     }
 
 
@@ -183,7 +189,7 @@ public class LogicGame {
             redefinition();
         } else if (two.isSubmarine(cell)) {
             redefinition();
-            //     checkShot(two, one, cell);
+            checkShot(two, one, cell);
         } else if (two.isMineswepeer(cell)) {
             redefinition();
             two.addMineCell(one.giveMineCell());

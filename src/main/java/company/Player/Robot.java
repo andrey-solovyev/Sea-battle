@@ -8,7 +8,7 @@ import company.Arms.Ship;
 import company.Arms.Submarine;
 import company.Field.Cell;
 import company.Field.Game_field;
-import javafx.scene.paint.Color;
+
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Stack;
@@ -17,15 +17,14 @@ public class Robot implements Player {
     private Stack<Cell> queue = new Stack<Cell>();
     private Arms arms;
     private Game_field game_field = new Game_field();
-    private Color colorShot = Color.RED;
     private int howMuchShot = 0;//it is for the second shot and other
     private Cell lastShot;
     private ArrayList<Cell> cellShot = new ArrayList<Cell>();
     private int draw = 0;
 
-    private void draw() {
+  /*  private void draw() {
         System.out.println("  1  2  3  4  5  6  7  8  9  10");
-        int g=1;
+        int g = 1;
         for (int i = 0; i < game_field.getGame_field().length; i++) {
             System.out.print(g);
             for (int k = 0; k < game_field.getGame_field().length; k++) {
@@ -39,11 +38,11 @@ public class Robot implements Player {
             g++;
             System.out.println();
         }
-    }
+    }*/
 
     public Cell whereShot(boolean islastShot) {
         hey();
-        draw();
+      //  draw();
         if (islastShot) {
             howMuchShot = +1;
             if (howMuchShot == 2) {
@@ -56,7 +55,7 @@ public class Robot implements Player {
                 return lastShot = queue.pop();
             }
             if (queue.isEmpty()) {
-                 doQueue(lastShot.getX(), lastShot.getY());
+                doQueue(lastShot.getX(), lastShot.getY());
                 if (queue.isEmpty()) {
                     return randomShot();
                 }
@@ -107,125 +106,58 @@ public class Robot implements Player {
         game_field.getGame_field()[i][k].setShot(true);
         return lastShot;
     }
-/*
-    private void outline(Ship ship) {
 
-        for (int i = 0; i < ship.getShips_cells().length; i++) {
-            int x = ship.getCell(i).getX();
-            int y = ship.getCell(i).getY();
-            if (ship.getSize() == 1) {
-                outlineY(ship.getShips_cells()[0].getX(), ship.getCell(0).getY());
-                if (x != 1) {
-                    game_field.getGame_field()[x - 2][y - 1].setShot(true);
-                    outlineY(x - 1, y);
-                }
-                if (x != 10) {
-                    game_field.getGame_field()[x][y - 1].setShot(true);
-                    outlineY(x + 1, y);
-                }
-                break;
-            }
-            if (!ship.isVertically()) {
-                if (x != 1 && i == 0) {
-                    game_field.getGame_field()[x - 2][y - 1].setShot(true);
-                    outlineY(x - 1, y);
-                }
-                if (i != ship.getShips_cells().length - 1) {
-                    outlineY(x, y);
-                } else {
-                    if (x != 10) {
-                        game_field.getGame_field()[x][y - 1].setShot(true);
-                        outlineY(x + 1, y);
-                    }
-                }
-            } else {
-                if (y != 1 && i == 0) {
-                    if (y-1==ship.getCell(i+1).getY()){
-                        game_field.getGame_field()[x - 1][y - 2].setShot(true);
-                    } else {
-                        game_field.getGame_field()[x - 1][y - 2].setShot(true);
-                        outlineX(x, y - 1);
-                    }
-                } else if (i != ship.getShips_cells().length - 1) {
-                    outlineX(x, y);
-                } else {
-                    if (y != 10) {
-                        game_field.getGame_field()[x - 1][y].setShot(true);
-                        outlineX(x, y + 1);
-                    }
-                }
 
-            }
 
-        }
-       // System.out.println(ship.getSize()+" size "+ship.getCell(0).getX()+" "+ship.getCell(0).getY()+" first "+ship.getCell(ship.getSize()-1).getX()+" "+ship.getCell(0).getY()+ship.getCell(ship.getSize()-1).getY());
-     //   draw();
+
+    @Override
+    public Arms getArms() {
+    return arms;
     }
-
-    private void outlineY(int x, int y) {
-        if (y != 1) {
-            game_field.getGame_field()[x][y - 2].setShot(true);
-        }
-        if (y != 10) {
-            game_field.getGame_field()[x][y].setShot(true);
-        }
-    }
-
-    private void outlineX(int x, int y) {
-        if (x != 1) {
-            game_field.getGame_field()[x - 2][y ].setShot(true);
-        }
-        if (x != 10) {
-            game_field.getGame_field()[x][y].setShot(true);
-        }
-    }*/
 
     @Override
     public Game_field getGameField() {
         return game_field;
     }
 
-    @Override
-    public Common[] getAllArms() {
-        return arms.getArms();
-    }
+    private void outline(Ship ship) {
 
-    private  void outline(Ship ship) {
+        for (int i = 0; i < ship.getShips_cells().length; i++) {
+            int x = ship.getCell(i).getX();
+            int y = ship.getCell(i).getY();
 
-    for (int i = 0; i < ship.getShips_cells().length; i++) {
-        int x = ship.getCell(i).getX();
-        int y = ship.getCell(i).getY();
+            if (ship.isVertically()) {//test OK
+                if (x != 1 && i == 0) {
+                    game_field.getGame_field()[x - 1][y].setShot(true);
+                    game_field.getGame_field()[x - 1][y + 1].setShot(true);
+                    outlineX(x + 1, y);//test OK
+                    outlineX(x, y);
 
-        if (ship.isVertically()) {//test OK
-            if (x != 1 && i == 0) {
-                game_field.getGame_field()[x - 1][y].setShot(true);
-                game_field.getGame_field()[x - 1][y+1].setShot(true);
-                outlineX(x + 1, y);//test OK
-                outlineX(x, y);
+                }
+                if (i != ship.getShips_cells().length - 1) {
+                    outlineX(x + 1, y);
 
-            }
-            if (i != ship.getShips_cells().length - 1) {
-                outlineX(x + 1, y);
-
+                } else {
+                    game_field.getGame_field()[x + 1][y].setShot(true);
+                    game_field.getGame_field()[x + 1][y + 1].setShot(true);
+                    outlineX(x + 1, y);
+                    outlineX(x + 2, y);
+                }
             } else {
-                game_field.getGame_field()[x+1][y].setShot(true);
-                game_field.getGame_field()[x+1][y+1].setShot(true);
-                outlineX(x+1, y );
-                outlineX(x+2,y);
-            }
-        } else {
-            if (y != 1 && i == 0) {
-                game_field.getGame_field()[x ][y-1].setShot(true);
-                // game_field.getGame_field()[x][y-1].setShot(true);
-                outlineY(x , y+1);//test OK
-                outlineY(x, y);
-            } else if (i != ship.getShips_cells().length - 1) {
-                outlineY(x, y+1);
-            } else {
-                game_field.getGame_field()[x+1][y+1].setShot(true);
-                game_field.getGame_field()[x][y+1].setShot(true);
-                outlineY(x, y + 1);
-                outlineY(x, y + 2);
+                if (y != 1 && i == 0) {
+                    game_field.getGame_field()[x][y - 1].setShot(true);
+                    // game_field.getGame_field()[x][y-1].setShot(true);
+                    outlineY(x, y + 1);//test OK
+                    outlineY(x, y);
+                } else if (i != ship.getShips_cells().length - 1) {
+                    outlineY(x, y + 1);
+                } else {
+                    game_field.getGame_field()[x + 1][y + 1].setShot(true);
+                    game_field.getGame_field()[x][y + 1].setShot(true);
+                    outlineY(x, y + 1);
+                    outlineY(x, y + 2);
+
+                }
 
             }
 
@@ -233,18 +165,16 @@ public class Robot implements Player {
 
     }
 
-}
-
-    private  void outlineY(int x, int y) {
+    private void outlineY(int x, int y) {
         if (x != 1) {
-            game_field.getGame_field()[x - 1][y-1].setShot(true);
+            game_field.getGame_field()[x - 1][y - 1].setShot(true);
         }
         if (x != 10) {
-            game_field.getGame_field()[x][y-1].setShot(true);
+            game_field.getGame_field()[x][y - 1].setShot(true);
         }
     }
 
-    private  void outlineX(int x, int y) {
+    private void outlineX(int x, int y) {
         if (y != 0) {
             game_field.getGame_field()[x - 1][y - 1].setShot(true);
         }
@@ -271,6 +201,7 @@ public class Robot implements Player {
         return arms.deadAllShip();
     }
 
+
     @Override
     public boolean isSubarineMineOrMinesweeper(Cell cell) {
         if (arms.isMine(cell.getX(), cell.getY())) {
@@ -282,7 +213,6 @@ public class Robot implements Player {
 
     @Override
     public boolean hit(Cell cell) {
-
         return arms.hit(cell.getX(), cell.getY());
     }
 
@@ -311,6 +241,11 @@ public class Robot implements Player {
         game_field.getGame_field()[cell.getX() - 1][cell.getY() - 1].setShot(true);
     }
 
+    @Override
+    public void setArms(Arms arm){
+        arms=arm;
+        queue.clear();
+    }
     @Override
     public void addCellShip(Cell cell) {
         queue.clear();
@@ -462,4 +397,75 @@ public class Robot implements Player {
             return queue.peek();
         } else {
             return lastShot=randomShot();
+        }*/
+/*
+    private void outline(Ship ship) {
+
+        for (int i = 0; i < ship.getShips_cells().length; i++) {
+            int x = ship.getCell(i).getX();
+            int y = ship.getCell(i).getY();
+            if (ship.getSize() == 1) {
+                outlineY(ship.getShips_cells()[0].getX(), ship.getCell(0).getY());
+                if (x != 1) {
+                    game_field.getGame_field()[x - 2][y - 1].setShot(true);
+                    outlineY(x - 1, y);
+                }
+                if (x != 10) {
+                    game_field.getGame_field()[x][y - 1].setShot(true);
+                    outlineY(x + 1, y);
+                }
+                break;
+            }
+            if (!ship.isVertically()) {
+                if (x != 1 && i == 0) {
+                    game_field.getGame_field()[x - 2][y - 1].setShot(true);
+                    outlineY(x - 1, y);
+                }
+                if (i != ship.getShips_cells().length - 1) {
+                    outlineY(x, y);
+                } else {
+                    if (x != 10) {
+                        game_field.getGame_field()[x][y - 1].setShot(true);
+                        outlineY(x + 1, y);
+                    }
+                }
+            } else {
+                if (y != 1 && i == 0) {
+                    if (y-1==ship.getCell(i+1).getY()){
+                        game_field.getGame_field()[x - 1][y - 2].setShot(true);
+                    } else {
+                        game_field.getGame_field()[x - 1][y - 2].setShot(true);
+                        outlineX(x, y - 1);
+                    }
+                } else if (i != ship.getShips_cells().length - 1) {
+                    outlineX(x, y);
+                } else {
+                    if (y != 10) {
+                        game_field.getGame_field()[x - 1][y].setShot(true);
+                        outlineX(x, y + 1);
+                    }
+                }
+
+            }
+
+        }
+       // System.out.println(ship.getSize()+" size "+ship.getCell(0).getX()+" "+ship.getCell(0).getY()+" first "+ship.getCell(ship.getSize()-1).getX()+" "+ship.getCell(0).getY()+ship.getCell(ship.getSize()-1).getY());
+     //   draw();
+    }
+
+    private void outlineY(int x, int y) {
+        if (y != 1) {
+            game_field.getGame_field()[x][y - 2].setShot(true);
+        }
+        if (y != 10) {
+            game_field.getGame_field()[x][y].setShot(true);
+        }
+    }
+
+    private void outlineX(int x, int y) {
+        if (x != 1) {
+            game_field.getGame_field()[x - 2][y ].setShot(true);
+        }
+        if (x != 10) {
+            game_field.getGame_field()[x][y].setShot(true);
         }*/

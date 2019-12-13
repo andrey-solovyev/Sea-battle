@@ -1,5 +1,6 @@
 package company;
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 import company.AllLogic.LogicGame;
 
 import java.util.Scanner;
@@ -14,10 +15,11 @@ public class Main {
         System.out.println("Начать новую игру (YES) или загрузить(NO)");
         String game=scanner.nextLine();
         if (game.contains("NO")){
-
+            System.out.println("Укажите путь до json");
+            logicGame.download(new Scanner(System.in).nextLine());
         } else {
+            System.out.println("Check robot vs user(YES),or no(NO)");
             logicGame.who();
-            System.out.println("Check robot vs user(1),or no(2)");
         }
     }
 }

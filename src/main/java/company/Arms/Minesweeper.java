@@ -12,7 +12,7 @@ public class Minesweeper implements Common {
     }
     @Override
     public boolean check(int x,int y){
-        if (Mineswepeer.getX()==x && Mineswepeer.getY()==y){
+        if (Mineswepeer.getX()==x && Mineswepeer.getY()==y && !isDead){
             isDead=true;
             return true;
         }

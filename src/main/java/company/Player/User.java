@@ -1,26 +1,30 @@
 package company.Player;
 
-import company.Arms.Arms;
-import company.Arms.Common;
-import company.Arms.Ship;
+import company.Arms.*;
 import company.Field.Cell;
 import company.Field.Game_field;
 import javafx.scene.paint.Color;
 
+
 import java.util.Scanner;
 
 public class User implements Player {
+
+
     private Arms arms;
-    private Game_field game_field=new Game_field();
+    private Game_field game_field = new Game_field();
     private Scanner scanner = new Scanner(System.in);
 
     public User() {
-
+        fieldShip();
     }
 
-    private void arrangeShips(){
-        arms.
+    private void fieldShip() {
+        Arms arms1 =
+                new Arms(new Ship(4, 2, 1, 6, 1, false), (new Ship(3, 2, 3, 4, 3, false)), new Ship(3, 1, 5, 1, 7, true), new Ship(2, 19, 1, 10, 1, true), new Ship(2, 18, 3, 18, 4, false), new Ship(2, 5, 5, 5, 6, false), new Ship(1, 3, 20, 3, 20, false), new Ship(1, 18, 20, 18, 20, false), new Ship(1, 4, 18, 4, 18, false), new Ship(1, 19, 17, 19, 17, false), new Mine(1, 1), new Submarine(1, 8), new Minesweeper(20, 20));
+        arms = arms1;
     }
+
     @Override
     public boolean hit(Cell cell) {
         return arms.hit(cell.getX(), cell.getY());
@@ -32,12 +36,35 @@ public class User implements Player {
     }
 
     @Override
-    public Common[] getAllArms() {
-        return getAllArms();
+    public void setArms(Arms arm){
+        arms=arm;
+    }
+
+    @Override
+    public Arms getArms(){
+        return arms;
     }
 
     public void colorShotShip(Cell cell) {
-        game_field.getGame_field()[cell.getX()][cell.getY()].setCell_color(Color.RED);
+        //  game_field.getGame_field()[cell.getX()][cell.getY()].setCell_color(Color.RED);
+    }
+
+    private void draw() {
+        System.out.println("  1  2  3  4  5  6  7  8  9  10");
+        int g = 1;
+        for (int i = 0; i < game_field.getGame_field().length; i++) {
+            System.out.print(g);
+            for (int k = 0; k < game_field.getGame_field().length; k++) {
+                if (game_field.getGame_field()[i][k].isShot()) {
+                    System.out.print(" # ");
+                } else {
+                    System.out.print(" * ");
+                }
+
+            }
+            g++;
+            System.out.println();
+        }
     }
     private void outline(Ship ship) {
 
@@ -116,13 +143,19 @@ public class User implements Player {
             outline(ship);
         }
     }
+
     @Override
     public Cell whereShot(boolean lastShot) {
+        draw();
         System.out.println("Where shot?");
         int x = scanner.nextInt();
         int y = scanner.nextInt();
+        game_field.getGame_field()[x-1][y-1].setShot(true);
+
         return new Cell(x, y);
     }
+
+
 
     @Override
     public boolean isSubarineMineOrMinesweeper(Cell cell) {
@@ -174,14 +207,6 @@ public class User implements Player {
     @Override
     public Cell randomPointShip() {
         return arms.randomPoint();
-    }
-
-    public Arms getArms() {
-        return arms;
-    }
-
-    public void setArms(Arms arms) {
-        this.arms = arms;
     }
 
     public Game_field getGame_field() {

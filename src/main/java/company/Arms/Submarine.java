@@ -1,7 +1,7 @@
 package company.Arms;
 
 import company.Field.Cell;
-import javafx.scene.paint.Color;
+//import javafx.scene.paint.Color;
 
 public class Submarine implements Common{
     private Cell submarine;
@@ -9,7 +9,7 @@ public class Submarine implements Common{
     public Submarine( int x, int y) {
         this.submarine = new Cell(x,y);
 
-        submarine.setCell_color(Color.YELLOW);
+       // submarine.setCell_color(Color.YELLOW);
     }
 
     public Cell getSubmarine() {
@@ -22,7 +22,7 @@ public class Submarine implements Common{
 
     @Override
     public boolean check(int x, int y) {
-        if (submarine.getX()==x && submarine.getY()==y){
+        if (submarine.getX()==x && submarine.getY()==y && !isDead){
             isDead=true;
             return true;
         }

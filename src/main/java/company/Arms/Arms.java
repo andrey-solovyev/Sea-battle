@@ -26,6 +26,8 @@ public class Arms {
     private Random random = new Random();
 
 
+    public Arms() {
+    }
 
     public Arms(Ship ship_4, Ship ship_3_1, Ship ship_3_2, Ship ship_2_1, Ship ship_2_2, Ship ship_2_3, Ship ship_1_1, Ship ship_1_2, Ship ship_1_3, Ship ship_1_4, Mine mine, Submarine submarine, Minesweeper minesweeper) {
         this.ship_4 = ship_4;
@@ -98,11 +100,11 @@ public class Arms {
     /*public Game_field getGameFieldPlayer(){
         return g
     }*/
-    public void arrangeAllArms(Arms arms){
-        int sizeShip=4;
-        int quantity=1;
-        int k=
-    }
+//    public void arrangeAllArms(Arms arms){
+//        int sizeShip=4;
+//        int quantity=1;
+//        int k=
+//    }
     public boolean isMineOrSubmarine(int x, int y) {
         if (getArms()[11].check(x, y) || getArms()[10].check(x, y)) {
             return true;
@@ -261,6 +263,9 @@ public class Arms {
         return submarine;
     }
 
+    public Ship[] getAllShips(){
+        return ships;
+    }
     public void setSubmarine(Submarine submarine) {
         this.submarine = submarine;
     }

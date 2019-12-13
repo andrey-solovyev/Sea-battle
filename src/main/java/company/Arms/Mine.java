@@ -1,7 +1,7 @@
 package company.Arms;
 
 import company.Field.Cell;
-import javafx.scene.paint.Color;
+//import javafx.scene.paint.Color;
 
 
 public class Mine implements Common  {
@@ -9,7 +9,7 @@ public class Mine implements Common  {
     private boolean isDead=true;
     public Mine(int x, int y) {
         this.Mine=new Cell(x,y);
-        Mine.setCell_color(Color.YELLOW);
+      //  Mine.setCell_color(Color.YELLOW);
     }
 
     public Cell getMine() {
