@@ -35,6 +35,28 @@
             <artifactId>javafx-controls</artifactId>
             <version>13</version>
         </dependency>
+    <dependency>
+        <groupId>org.telegram</groupId>
+        <artifactId>telegrambots</artifactId>
+        <version>LATEST</version>
+    </dependency>
+    <dependency>
+        <groupId>org.telegram</groupId>
+        <artifactId>telegrambotsextensions</artifactId>
+        <version>LATEST</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa -->
+    <dependency>
+        <groupId>org.springframework.data</groupId>
+        <artifactId>spring-data-jpa</artifactId>
+        <version>2.2.2.RELEASE</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-api</artifactId>
+        <version>2.12.1</version>
+    </dependency>
+
 
     <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
     <dependency>

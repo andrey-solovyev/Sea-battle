@@ -8,12 +8,14 @@ import javafx.scene.paint.Color;
 
 import java.util.Scanner;
 
-public class User implements Player {
+public class User implements Player{
 
 
+    private long chat_id;
     private Arms arms;
     private Game_field game_field = new Game_field();
     private Scanner scanner = new Scanner(System.in);
+
 
     public User() {
         fieldShip();
@@ -49,22 +51,24 @@ public class User implements Player {
         //  game_field.getGame_field()[cell.getX()][cell.getY()].setCell_color(Color.RED);
     }
 
-    private void draw() {
-        System.out.println("  1  2  3  4  5  6  7  8  9  10");
+    public String draw() {
+        String string=new String();
+        string+=("  1  2  3  4  5  6  7  8  9  10");
         int g = 1;
         for (int i = 0; i < game_field.getGame_field().length; i++) {
-            System.out.print(g);
+            string+=g;
             for (int k = 0; k < game_field.getGame_field().length; k++) {
                 if (game_field.getGame_field()[i][k].isShot()) {
-                    System.out.print(" # ");
+                    string+=" # ";
                 } else {
-                    System.out.print(" * ");
+                    string+=(" * ");
                 }
 
             }
             g++;
-            System.out.println();
+            string+="\n";
         }
+        return string;
     }
     private void outline(Ship ship) {
 
@@ -146,7 +150,6 @@ public class User implements Player {
 
     @Override
     public Cell whereShot(boolean lastShot) {
-        draw();
         System.out.println("Where shot?");
         int x = scanner.nextInt();
         int y = scanner.nextInt();
@@ -155,7 +158,10 @@ public class User implements Player {
         return new Cell(x, y);
     }
 
-
+    @Override
+    public String cells() {
+        return draw();
+    }
 
     @Override
     public boolean isSubarineMineOrMinesweeper(Cell cell) {

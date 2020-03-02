@@ -1,0 +1,3514 @@
+{
+  "playerOne": [
+    [
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 0,
+        "y": 1
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 0,
+        "y": 2
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 0,
+        "y": 3
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 0,
+        "y": 4
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 0,
+        "y": 5
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 0,
+        "y": 6
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 0,
+        "y": 7
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 0,
+        "y": 8
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 0,
+        "y": 9
+      }
+    ],
+    [
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 1,
+        "y": 2
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 1,
+        "y": 3
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 1,
+        "y": 4
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 1,
+        "y": 5
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 1,
+        "y": 6
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 1,
+        "y": 7
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 1,
+        "y": 8
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 1,
+        "y": 9
+      }
+    ],
+    [
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 2,
+        "y": 0
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 2,
+        "y": 2
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 2,
+        "y": 3
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 2,
+        "y": 4
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 2,
+        "y": 5
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 2,
+        "y": 6
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 2,
+        "y": 7
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 2,
+        "y": 8
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 2,
+        "y": 9
+      }
+    ],
+    [
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 3,
+        "y": 0
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 3,
+        "y": 2
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 3,
+        "y": 3
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 3,
+        "y": 4
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 3,
+        "y": 5
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 3,
+        "y": 6
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 3,
+        "y": 7
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 3,
+        "y": 8
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 3,
+        "y": 9
+      }
+    ],
+    [
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 4,
+        "y": 0
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 4,
+        "y": 2
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 4,
+        "y": 3
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 4,
+        "y": 4
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 4,
+        "y": 5
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 4,
+        "y": 6
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 4,
+        "y": 7
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 4,
+        "y": 8
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 4,
+        "y": 9
+      }
+    ],
+    [
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 5,
+        "y": 0
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 5,
+        "y": 1
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 5,
+        "y": 2
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 5,
+        "y": 3
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 5,
+        "y": 4
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 5,
+        "y": 5
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 5,
+        "y": 6
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 5,
+        "y": 7
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 5,
+        "y": 8
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 5,
+        "y": 9
+      }
+    ],
+    [
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 6,
+        "y": 0
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 6,
+        "y": 1
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 6,
+        "y": 2
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 6,
+        "y": 3
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 6,
+        "y": 4
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 6,
+        "y": 5
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 6,
+        "y": 6
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 6,
+        "y": 7
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 6,
+        "y": 8
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 6,
+        "y": 9
+      }
+    ],
+    [
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 7,
+        "y": 0
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 7,
+        "y": 1
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 7,
+        "y": 2
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 7,
+        "y": 3
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 7,
+        "y": 4
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 7,
+        "y": 5
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 7,
+        "y": 6
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 7,
+        "y": 7
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 7,
+        "y": 8
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 7,
+        "y": 9
+      }
+    ],
+    [
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 8,
+        "y": 0
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 8,
+        "y": 1
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 8,
+        "y": 2
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 8,
+        "y": 3
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 8,
+        "y": 4
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 8,
+        "y": 5
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 8,
+        "y": 6
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 8,
+        "y": 7
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 8,
+        "y": 8
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 8,
+        "y": 9
+      }
+    ],
+    [
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 9,
+        "y": 0
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 9,
+        "y": 1
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 9,
+        "y": 2
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 9,
+        "y": 3
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 9,
+        "y": 4
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 9,
+        "y": 5
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 9,
+        "y": 6
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 9,
+        "y": 7
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 9,
+        "y": 8
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 9,
+        "y": 9
+      }
+    ]
+  ],
+  "playerTwo": [
+    [
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 0,
+        "y": 1
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 0,
+        "y": 2
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 0,
+        "y": 3
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 0,
+        "y": 4
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 0,
+        "y": 5
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 0,
+        "y": 6
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 0,
+        "y": 7
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 0,
+        "y": 8
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 0,
+        "y": 9
+      }
+    ],
+    [
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 1,
+        "y": 2
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 1,
+        "y": 3
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 1,
+        "y": 4
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 1,
+        "y": 5
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 1,
+        "y": 6
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 1,
+        "y": 7
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 1,
+        "y": 8
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 1,
+        "y": 9
+      }
+    ],
+    [
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 2,
+        "y": 0
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 2,
+        "y": 2
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 2,
+        "y": 3
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 2,
+        "y": 4
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 2,
+        "y": 5
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 2,
+        "y": 6
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 2,
+        "y": 7
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 2,
+        "y": 8
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 2,
+        "y": 9
+      }
+    ],
+    [
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 3,
+        "y": 0
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 3,
+        "y": 2
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 3,
+        "y": 3
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 3,
+        "y": 4
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 3,
+        "y": 5
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 3,
+        "y": 6
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 3,
+        "y": 7
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 3,
+        "y": 8
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 3,
+        "y": 9
+      }
+    ],
+    [
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 4,
+        "y": 0
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 4,
+        "y": 2
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 4,
+        "y": 3
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 4,
+        "y": 4
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 4,
+        "y": 5
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 4,
+        "y": 6
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 4,
+        "y": 7
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 4,
+        "y": 8
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 4,
+        "y": 9
+      }
+    ],
+    [
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 5,
+        "y": 0
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 5,
+        "y": 1
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 5,
+        "y": 2
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 5,
+        "y": 3
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 5,
+        "y": 4
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 5,
+        "y": 5
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 5,
+        "y": 6
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 5,
+        "y": 7
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 5,
+        "y": 8
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 5,
+        "y": 9
+      }
+    ],
+    [
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 6,
+        "y": 0
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 6,
+        "y": 1
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 6,
+        "y": 2
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 6,
+        "y": 3
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 6,
+        "y": 4
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 6,
+        "y": 5
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 6,
+        "y": 6
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 6,
+        "y": 7
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 6,
+        "y": 8
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 6,
+        "y": 9
+      }
+    ],
+    [
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 7,
+        "y": 0
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 7,
+        "y": 1
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 7,
+        "y": 2
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 7,
+        "y": 3
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 7,
+        "y": 4
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 7,
+        "y": 5
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 7,
+        "y": 6
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 7,
+        "y": 7
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 7,
+        "y": 8
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 7,
+        "y": 9
+      }
+    ],
+    [
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 8,
+        "y": 0
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 8,
+        "y": 1
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 8,
+        "y": 2
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 8,
+        "y": 3
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 8,
+        "y": 4
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 8,
+        "y": 5
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 8,
+        "y": 6
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 8,
+        "y": 7
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 8,
+        "y": 8
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 8,
+        "y": 9
+      }
+    ],
+    [
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 9,
+        "y": 0
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 9,
+        "y": 1
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": true,
+        "x": 9,
+        "y": 2
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 9,
+        "y": 3
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 9,
+        "y": 4
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 9,
+        "y": 5
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 9,
+        "y": 6
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 9,
+        "y": 7
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 9,
+        "y": 8
+      },
+      {
+        "cell_color": {
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 1.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 9,
+        "y": 9
+      }
+    ]
+  ],
+  "playerOneArms": {
+    "ship_4": {
+      "size": 4,
+      "healthy": -6,
+      "ships_cells": [
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": true,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": true,
+          "x": 3,
+          "y": 1
+        },
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": true,
+          "x": 4,
+          "y": 1
+        },
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": true,
+          "x": 5,
+          "y": 1
+        }
+      ],
+      "vertically": true
+    },
+    "ship_3_1": {
+      "size": 3,
+      "healthy": 3,
+      "ships_cells": [
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 2,
+          "y": 3
+        },
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 4,
+          "y": 3
+        }
+      ],
+      "vertically": true
+    },
+    "ship_3_2": {
+      "size": 3,
+      "healthy": -1,
+      "ships_cells": [
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": true,
+          "x": 1,
+          "y": 5
+        },
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": true,
+          "x": 1,
+          "y": 6
+        },
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 1,
+          "y": 7
+        }
+      ],
+      "vertically": false
+    },
+    "ship_2_1": {
+      "size": 2,
+      "healthy": 2,
+      "ships_cells": [
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 19,
+          "y": 1
+        },
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 20,
+          "y": 1
+        }
+      ],
+      "vertically": true
+    },
+    "ship_2_2": {
+      "size": 2,
+      "healthy": 2,
+      "ships_cells": [
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 18,
+          "y": 3
+        },
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 18,
+          "y": 4
+        }
+      ],
+      "vertically": false
+    },
+    "ship_2_3": {
+      "size": 2,
+      "healthy": -4,
+      "ships_cells": [
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": true,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": true,
+          "x": 5,
+          "y": 6
+        }
+      ],
+      "vertically": false
+    },
+    "ship_1_1": {
+      "size": 1,
+      "healthy": 1,
+      "ships_cells": [
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 3,
+          "y": 20
+        }
+      ],
+      "vertically": false
+    },
+    "ship_1_2": {
+      "size": 1,
+      "healthy": 1,
+      "ships_cells": [
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 18,
+          "y": 20
+        }
+      ],
+      "vertically": false
+    },
+    "ship_1_3": {
+      "size": 1,
+      "healthy": 1,
+      "ships_cells": [
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 4,
+          "y": 18
+        }
+      ],
+      "vertically": false
+    },
+    "ship_1_4": {
+      "size": 1,
+      "healthy": 1,
+      "ships_cells": [
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 19,
+          "y": 17
+        }
+      ],
+      "vertically": false
+    },
+    "mine": {
+      "Mine": {
+        "cell_color": {
+          "red": 0.6784314,
+          "green": 0.84705883,
+          "blue": 0.9019608,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 1,
+        "y": 1
+      },
+      "isDead": true
+    },
+    "submarine": {
+      "submarine": {
+        "cell_color": {
+          "red": 0.6784314,
+          "green": 0.84705883,
+          "blue": 0.9019608,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 1,
+        "y": 8
+      },
+      "isDead": false
+    },
+    "ships": [
+      {
+        "size": 4,
+        "healthy": -6,
+        "ships_cells": [
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": true,
+            "x": 2,
+            "y": 1
+          },
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": true,
+            "x": 3,
+            "y": 1
+          },
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": true,
+            "x": 4,
+            "y": 1
+          },
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": true,
+            "x": 5,
+            "y": 1
+          }
+        ],
+        "vertically": true
+      },
+      {
+        "size": 3,
+        "healthy": 3,
+        "ships_cells": [
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 2,
+            "y": 3
+          },
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 3,
+            "y": 3
+          },
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 4,
+            "y": 3
+          }
+        ],
+        "vertically": true
+      },
+      {
+        "size": 3,
+        "healthy": -1,
+        "ships_cells": [
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": true,
+            "x": 1,
+            "y": 5
+          },
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": true,
+            "x": 1,
+            "y": 6
+          },
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 1,
+            "y": 7
+          }
+        ],
+        "vertically": false
+      },
+      {
+        "size": 2,
+        "healthy": 2,
+        "ships_cells": [
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 19,
+            "y": 1
+          },
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 20,
+            "y": 1
+          }
+        ],
+        "vertically": true
+      },
+      {
+        "size": 2,
+        "healthy": 2,
+        "ships_cells": [
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 18,
+            "y": 3
+          },
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 18,
+            "y": 4
+          }
+        ],
+        "vertically": false
+      },
+      {
+        "size": 2,
+        "healthy": -4,
+        "ships_cells": [
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": true,
+            "x": 5,
+            "y": 5
+          },
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": true,
+            "x": 5,
+            "y": 6
+          }
+        ],
+        "vertically": false
+      },
+      {
+        "size": 1,
+        "healthy": 1,
+        "ships_cells": [
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 3,
+            "y": 20
+          }
+        ],
+        "vertically": false
+      },
+      {
+        "size": 1,
+        "healthy": 1,
+        "ships_cells": [
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 18,
+            "y": 20
+          }
+        ],
+        "vertically": false
+      },
+      {
+        "size": 1,
+        "healthy": 1,
+        "ships_cells": [
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 4,
+            "y": 18
+          }
+        ],
+        "vertically": false
+      },
+      {
+        "size": 1,
+        "healthy": 1,
+        "ships_cells": [
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 19,
+            "y": 17
+          }
+        ],
+        "vertically": false
+      }
+    ],
+    "minesweeper": {
+      "Mineswepeer": {
+        "cell_color": {
+          "red": 1.0,
+          "green": 0.64705884,
+          "blue": 0.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 20,
+        "y": 20
+      },
+      "isDead": false
+    },
+    "howMuchShip": 4,
+    "random": {
+      "seed": 81621574838215,
+      "nextNextGaussian": 0.0,
+      "haveNextNextGaussian": false
+    }
+  },
+  "playerTwoArms": {
+    "ship_4": {
+      "size": 4,
+      "healthy": -8,
+      "ships_cells": [
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": true,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": true,
+          "x": 3,
+          "y": 1
+        },
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": true,
+          "x": 4,
+          "y": 1
+        },
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": true,
+          "x": 5,
+          "y": 1
+        }
+      ],
+      "vertically": true
+    },
+    "ship_3_1": {
+      "size": 3,
+      "healthy": -1,
+      "ships_cells": [
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 2,
+          "y": 3
+        },
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": true,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": true,
+          "x": 4,
+          "y": 3
+        }
+      ],
+      "vertically": true
+    },
+    "ship_3_2": {
+      "size": 3,
+      "healthy": 3,
+      "ships_cells": [
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 1,
+          "y": 5
+        },
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 1,
+          "y": 6
+        },
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 1,
+          "y": 7
+        }
+      ],
+      "vertically": false
+    },
+    "ship_2_1": {
+      "size": 2,
+      "healthy": 2,
+      "ships_cells": [
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 19,
+          "y": 1
+        },
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 20,
+          "y": 1
+        }
+      ],
+      "vertically": true
+    },
+    "ship_2_2": {
+      "size": 2,
+      "healthy": 2,
+      "ships_cells": [
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 18,
+          "y": 3
+        },
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 18,
+          "y": 4
+        }
+      ],
+      "vertically": false
+    },
+    "ship_2_3": {
+      "size": 2,
+      "healthy": -10,
+      "ships_cells": [
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": true,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": true,
+          "x": 5,
+          "y": 6
+        }
+      ],
+      "vertically": false
+    },
+    "ship_1_1": {
+      "size": 1,
+      "healthy": 1,
+      "ships_cells": [
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 3,
+          "y": 20
+        }
+      ],
+      "vertically": false
+    },
+    "ship_1_2": {
+      "size": 1,
+      "healthy": 1,
+      "ships_cells": [
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 18,
+          "y": 20
+        }
+      ],
+      "vertically": false
+    },
+    "ship_1_3": {
+      "size": 1,
+      "healthy": 1,
+      "ships_cells": [
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 4,
+          "y": 18
+        }
+      ],
+      "vertically": false
+    },
+    "ship_1_4": {
+      "size": 1,
+      "healthy": 1,
+      "ships_cells": [
+        {
+          "cell_color": {
+            "red": 0.6784314,
+            "green": 0.84705883,
+            "blue": 0.9019608,
+            "opacity": 1.0
+          },
+          "shot": false,
+          "x": 19,
+          "y": 17
+        }
+      ],
+      "vertically": false
+    },
+    "mine": {
+      "Mine": {
+        "cell_color": {
+          "red": 0.6784314,
+          "green": 0.84705883,
+          "blue": 0.9019608,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 1,
+        "y": 1
+      },
+      "isDead": true
+    },
+    "submarine": {
+      "submarine": {
+        "cell_color": {
+          "red": 0.6784314,
+          "green": 0.84705883,
+          "blue": 0.9019608,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 1,
+        "y": 8
+      },
+      "isDead": false
+    },
+    "ships": [
+      {
+        "size": 4,
+        "healthy": -8,
+        "ships_cells": [
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": true,
+            "x": 2,
+            "y": 1
+          },
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": true,
+            "x": 3,
+            "y": 1
+          },
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": true,
+            "x": 4,
+            "y": 1
+          },
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": true,
+            "x": 5,
+            "y": 1
+          }
+        ],
+        "vertically": true
+      },
+      {
+        "size": 3,
+        "healthy": -1,
+        "ships_cells": [
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 2,
+            "y": 3
+          },
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": true,
+            "x": 3,
+            "y": 3
+          },
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": true,
+            "x": 4,
+            "y": 3
+          }
+        ],
+        "vertically": true
+      },
+      {
+        "size": 3,
+        "healthy": 3,
+        "ships_cells": [
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 1,
+            "y": 5
+          },
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 1,
+            "y": 6
+          },
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 1,
+            "y": 7
+          }
+        ],
+        "vertically": false
+      },
+      {
+        "size": 2,
+        "healthy": 2,
+        "ships_cells": [
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 19,
+            "y": 1
+          },
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 20,
+            "y": 1
+          }
+        ],
+        "vertically": true
+      },
+      {
+        "size": 2,
+        "healthy": 2,
+        "ships_cells": [
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 18,
+            "y": 3
+          },
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 18,
+            "y": 4
+          }
+        ],
+        "vertically": false
+      },
+      {
+        "size": 2,
+        "healthy": -10,
+        "ships_cells": [
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": true,
+            "x": 5,
+            "y": 5
+          },
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": true,
+            "x": 5,
+            "y": 6
+          }
+        ],
+        "vertically": false
+      },
+      {
+        "size": 1,
+        "healthy": 1,
+        "ships_cells": [
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 3,
+            "y": 20
+          }
+        ],
+        "vertically": false
+      },
+      {
+        "size": 1,
+        "healthy": 1,
+        "ships_cells": [
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 18,
+            "y": 20
+          }
+        ],
+        "vertically": false
+      },
+      {
+        "size": 1,
+        "healthy": 1,
+        "ships_cells": [
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 4,
+            "y": 18
+          }
+        ],
+        "vertically": false
+      },
+      {
+        "size": 1,
+        "healthy": 1,
+        "ships_cells": [
+          {
+            "cell_color": {
+              "red": 0.6784314,
+              "green": 0.84705883,
+              "blue": 0.9019608,
+              "opacity": 1.0
+            },
+            "shot": false,
+            "x": 19,
+            "y": 17
+          }
+        ],
+        "vertically": false
+      }
+    ],
+    "minesweeper": {
+      "Mineswepeer": {
+        "cell_color": {
+          "red": 1.0,
+          "green": 0.64705884,
+          "blue": 0.0,
+          "opacity": 1.0
+        },
+        "shot": false,
+        "x": 20,
+        "y": 20
+      },
+      "isDead": false
+    },
+    "howMuchShip": 0,
+    "random": {
+      "seed": 205730712354841,
+      "nextNextGaussian": 0.0,
+      "haveNextNextGaussian": false
+    }
+  },
+  "haveUser": false,
+  "lastShotOne": true,
+  "one": "Robot",
+  "two": "Robot"
+}

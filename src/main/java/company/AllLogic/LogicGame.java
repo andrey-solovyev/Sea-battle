@@ -1,28 +1,25 @@
 package company.AllLogic;
 
 
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.google.gson.JsonArray;
+
 import company.Field.Cell;
-import company.Field.Game_field;
 import company.Player.Player;
 import company.Player.Robot;
 import company.Player.User;
+import org.telegram.telegrambots.meta.api.objects.Message;
 
 import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.Iterator;
 import java.util.Random;
 import java.util.Scanner;
 
+import static java.lang.Integer.parseInt;
+
+
 public class LogicGame {
     private Game games;
-    private boolean haveUser = false;
+    private boolean haveUser = true;
     private boolean playerOneGo = false;
     private boolean playerTwoGo = false;
     private boolean playerOneLastShot = false;
@@ -31,12 +28,14 @@ public class LogicGame {
     private Player playerTwo;
     private Scanner scanner = new Scanner(System.in);
     private SaveGameJson saveGameJson = new SaveGameJson();
+    private Cell lastShot;
 
     //выбор игроков
     //if (robot vs robot then...) another robot vs user
 
 
     public LogicGame() {
+
     }
 
     public void who() {
@@ -126,24 +125,54 @@ public class LogicGame {
         }
     }
 
-    private void WhoIsmove() {
-        int q = 0;
+    public void setLastShot(Message message) {
+
+        this.lastShot = new Cell(parseInt(message.getText().split(" ")[0]), parseInt(message.getText().split(" ")[1]));
+    }
+
+    public void botShot() {
+        who();
+        firstHit();
         while (!playerOne.allShipIsDead() && !playerTwo.allShipIsDead()) {
-//            System.out.println("Сохранить текущее состояние(YES) или нет(NO)?");
-//            String game = scanner.nextLine();
-//            if (game.contains("YES")) {
-//                saveJson();
-//            }
-            q++;
-            if (q == 30) {
-                saveJson();
-            }
             if (playerOneGo) {
-                Cell cell = playerOne.whereShot(playerOneLastShot);
+
+                Cell cell = lastShot;
+
                 System.out.println("One " + cell.getX() + " " + cell.getY());
                 checkShot(playerOne, playerTwo, cell);
             } else if (playerTwoGo) {
                 Cell cell = playerTwo.whereShot(playerTwoLastShot);
+                System.out.println("Two" + cell.getX() + " " + cell.getY());
+                checkShot(playerTwo, playerOne, cell);
+            }
+        }
+        //standart path to json is
+        //  readJsonFromFile("D:\\Sea battle\\json\\Output.json");
+        finish();
+
+    }
+
+    private void WhoIsmove() {
+        int q = 0;
+        while (!playerOne.allShipIsDead() && !playerTwo.allShipIsDead()) {
+            System.out.println("Сохранить текущее состояние(YES) или нет(NO)?");
+            String game = scanner.nextLine();
+            if (game.contains("YES")) {
+                saveJson();
+            }
+            q++;
+            if (q == 30) {
+                saveJson();
+            }
+
+            if (playerOneGo) {
+                Cell cell = playerOne.whereShot(playerOneLastShot);
+                System.out.println(playerOne.cells());
+                System.out.println("One " + cell.getX() + " " + cell.getY());
+                checkShot(playerOne, playerTwo, cell);
+            } else if (playerTwoGo) {
+                Cell cell = playerTwo.whereShot(playerTwoLastShot);
+                System.out.println(playerTwo.cells());
                 System.out.println("Two" + cell.getX() + " " + cell.getY());
                 checkShot(playerTwo, playerOne, cell);
             }

@@ -40,6 +40,11 @@ public class Robot implements Player {
         }
     }*/
 
+    @Override
+    public String cells() {
+        return null;
+    }
+
     public Cell whereShot(boolean islastShot) {
         hey();
       //  draw();

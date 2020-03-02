@@ -6,25 +6,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/company/AllLogic/LogicGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/AllLogic/LogicGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/Arms/Arms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/Arms/Arms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/Arms/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/Arms/Common.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/Arms/Mine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/Arms/Mine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/Arms/Minesweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/Arms/Minesweeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/Arms/Submarine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/Arms/Submarine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/company/Player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/Player/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/company/Player/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/Player/Robot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/company/Player/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/Player/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/company/AllLogic/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/company/AllLogic/Game.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/company/AllLogic/LogicGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/company/AllLogic/LogicGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/company/Arms/Arms.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/company/Arms/Arms.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/company/Arms/Common.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/company/Arms/Common.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/company/Arms/Mine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/company/Arms/Mine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/company/Arms/Minesweeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/company/Arms/Minesweeper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/company/Arms/Ship.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/company/Arms/Ship.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/company/Arms/Submarine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/company/Arms/Submarine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/company/Field/Cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/company/Field/Cell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/company/Field/Game_field.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/company/Field/Game_field.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/company/Player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/company/Player/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/company/Player/Robot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/company/Player/Robot.class" afterDir="false" />
@@ -60,14 +46,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573504151755" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Task_with_pattern" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="company.CommandForBot" />
+      <recent name="company" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Sea battle\src\main\java\company\CommandForBot" />
       <recent name="C:\Users\Андрей\Downloads\Sea battle\src\main\java" />
     </key>
   </component>
@@ -115,6 +106,18 @@
       <workItem from="1574106569780" duration="3283000" />
       <workItem from="1574155792091" duration="12540000" />
       <workItem from="1574232121440" duration="2699000" />
+      <workItem from="1576271098932" duration="158000" />
+      <workItem from="1576670009574" duration="136000" />
+      <workItem from="1576676610823" duration="1488000" />
+      <workItem from="1576741354720" duration="1088000" />
+      <workItem from="1578731648305" duration="1440000" />
+      <workItem from="1578940957796" duration="5841000" />
+      <workItem from="1579097823193" duration="250000" />
+      <workItem from="1579260016107" duration="4713000" />
+      <workItem from="1579614667344" duration="377000" />
+      <workItem from="1579618392928" duration="868000" />
+      <workItem from="1579690099414" duration="2908000" />
+      <workItem from="1583133346279" duration="530000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1572445346307</created>
@@ -130,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574008976482</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Json is ready">
+      <created>1576271170207</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576271170207</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +175,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Json is ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Json is ready" />
   </component>
 </project>

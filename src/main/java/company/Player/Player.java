@@ -7,6 +7,8 @@ import company.Field.Game_field;
 public interface Player {
     boolean hit(Cell cell);
 
+    String cells();
+
     Ship isDeadShip(Cell cell);
 
     void giveDeadShip(Ship ship);
